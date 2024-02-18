@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
     "coles": "node coles.com.js",
-    "wool": "nodemon woolworths2.com.js",
+    "wool": "node woolworths2.com.js",
     "aldi": "node aldi.au.js"
 
   },
