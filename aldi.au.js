@@ -32,17 +32,20 @@ async function webSpider() {
           };
         productLinks.each((index, element) => {
           const productTitle = $(element).find('.box--description--header').text().trim();
-          const productPrice = $(element).find('.box--price .box--value').text().trim();
+          let productPrice = $(element).find('.box--price .box--value').text().trim();
           const decimalPrice = $(element).find('.box--price .box--decimal').text().trim();
+          productPrice=`${productPrice}${decimalPrice}`;
+          productPrice=productPrice.replace('$', '');
           const productUrl=$(element).attr('href');
           if(productUrl){
-            let productInfo={productTitle, productPrice:`${productPrice}${decimalPrice}`,productUrl};
-            onPageProducts.push(productInfo);
+            let productInfo={productTitle, productPrice,productUrl, "paginationUrl":`${mainDomain}${paginationURLRoot}`};
+            // onPageProducts.push(productInfo);
+            products.push(productInfo);
           }
 
       });
-      paginationObj['onPageProducts']=onPageProducts;
-      products.push(paginationObj);
+      // paginationObj['onPageProducts']=onPageProducts;
+      // products.push(paginationObj);
     } 
 
     const productsString = JSON.stringify(products, null, 2);

@@ -1,642 +1,764 @@
 [
   {
-    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/",
-    "onPageProducts": [
-      {
-        "productTitle": "Inner Goodness Soy Milk 1L",
-        "productPrice": "$2.29",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/inner-goodness-soy-milk-1l/"
-      },
-      {
-        "productTitle": "Inner Goodness Almond Milk 1L",
-        "productPrice": "$2.79",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/inner-goodness-almond-milk-1l/"
-      },
-      {
-        "productTitle": "Farmdale Organic Full Cream Milk 1L",
-        "productPrice": "$2.39",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-organic-full-cream-milk-1l/"
-      },
-      {
-        "productTitle": "Farmdale Full Cream Milk UHT 1L",
-        "productPrice": "$1.59",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-full-cream-milk-uht-1l/"
-      },
-      {
-        "productTitle": "Farmdale Light Milk UHT 1L",
-        "productPrice": "$1.59",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-light-milk-uht-1l/"
-      },
-      {
-        "productTitle": "Farmdale Skim Milk UHT 1L",
-        "productPrice": "$1.59",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-skim-milk-uht-1l/"
-      },
-      {
-        "productTitle": "Farmdale Full Cream Milk UHT 2L",
-        "productPrice": "$3.09",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-full-cream-milk-uht-2l/"
-      },
-      {
-        "productTitle": "Farmdale Skim Milk UHT 2L",
-        "productPrice": "$3.09",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-skim-milk-uht-2l/"
-      },
-      {
-        "productTitle": "Farmdale Lactose Free UHT Milk 1L",
-        "productPrice": "$1.59",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-lactose-free-uht-milk-1l/"
-      },
-      {
-        "productTitle": "Farmdale Lactose Free Low Fat UHT Milk 1L",
-        "productPrice": "$1.59",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-lactose-free-low-fat-uht-milk-1l/"
-      },
-      {
-        "productTitle": "Farmdale Lactose Free Full Cream Milk 1L",
-        "productPrice": "$2.79",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-lactose-free-full-cream-milk-1l-1/"
-      },
-      {
-        "productTitle": "CHAMP Iced Coffee Flavoured Milk 600ml",
-        "productPrice": "$2.79",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/champ-iced-coffee-flavoured-milk-600ml/"
-      },
-      {
-        "productTitle": "CHAMP Iced Coffee Flavoured Milk 2L",
-        "productPrice": "$3.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/champ-iced-coffee-flavoured-milk-2l/"
-      },
-      {
-        "productTitle": "CHAMP Chocolate Flavoured Milk 600ml",
-        "productPrice": "$2.79",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/champ-chocolate-flavoured-milk-600ml/"
-      },
-      {
-        "productTitle": "CHAMP Chocolate Flavoured Milk 2L",
-        "productPrice": "$3.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/champ-chocolate-flavoured-milk-2l/"
-      },
-      {
-        "productTitle": "Farmdale Full Cream Milk Powder 1kg",
-        "productPrice": "$8.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-full-cream-milk-powder-1kg-1/"
-      },
-      {
-        "productTitle": "UHT Soy Organic Milk 1L",
-        "productPrice": "$1.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/uht-soy-organic-milk-1l/"
-      },
-      {
-        "productTitle": "UHT Milk Soy 1L",
-        "productPrice": "$1.15",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/uht-milk-soy-1l/"
-      },
-      {
-        "productTitle": "UHT Milk Soy Light 1L",
-        "productPrice": "$1.15",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/uht-milk-soy-light-1l/"
-      },
-      {
-        "productTitle": "Milk UHT Almond Unsweetened 1L",
-        "productPrice": "$1.89",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/milk-uht-almond-unsweetened-1l/"
-      },
-      {
-        "productTitle": "Milk UHT Almond Original 1L",
-        "productPrice": "$1.89",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/milk-uht-almond-original-1l/"
-      },
-      {
-        "productTitle": "UHT Oat Milk 1L",
-        "productPrice": "$1.89",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/uht-oat-milk-1l/"
-      },
-      {
-        "productTitle": "Inner Goodness Long Life Rice Milk 1L",
-        "productPrice": "$1.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/inner-goodness-long-life-rice-milk-1l/"
-      },
-      {
-        "productTitle": "Inner Goodness - Barista Long Life Almond Unsweetened Milk 1L",
-        "productPrice": "$2.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/inner-goodness-barista-long-life-almond-unsweetene/"
-      },
-      {
-        "productTitle": "Inner Goodness - Barista Long Life Oat Milk 1L",
-        "productPrice": "$2.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/inner-goodness-barista-long-life-oat-milk-1l/"
-      },
-      {
-        "productTitle": "Biocult Fermented Milk 5 x 65ml",
-        "productPrice": "$3.19",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/biocult-fermented-milk-5-x-65ml/"
-      },
-      {
-        "productTitle": "Farmdale Moobox Milk Strawberry 6pk",
-        "productPrice": "$4.69",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-moobox-milk-strawberry-6pk/"
-      },
-      {
-        "productTitle": "Farmdale Moobox Milk Chocolate 6pk",
-        "productPrice": "$4.69",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-moobox-milk-chocolate-6pk/"
-      },
-      {
-        "productTitle": "Farmdale Sweetened Condensed Milk 397g",
-        "productPrice": "$1.79",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-sweetened-condensed-milk-397g/"
-      },
-      {
-        "productTitle": "Farmdale Evaporated Milk 384mL",
-        "productPrice": "$1.89",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-evaporated-milk-384ml/"
-      },
-      {
-        "productTitle": "Lodge Farms Large Free Range Eggs 12pk/600g",
-        "productPrice": "$4.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/lodge-farms-large-free-range-eggs-12pk600g/"
-      },
-      {
-        "productTitle": "Lodge Farms Extra Large Free Range Eggs 12pk/700g",
-        "productPrice": "$5.19",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/lodge-farms-extra-large-free-range-eggs-12pk700g/"
-      },
-      {
-        "productTitle": "Sunnyvale Olive Spread Regular 500g",
-        "productPrice": "$3.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/sunnyvale-olive-spread-regular-500g/"
-      },
-      {
-        "productTitle": "Sunnyvale Olive Spread Light 500g",
-        "productPrice": "$3.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/sunnyvale-olive-spread-light-500g/"
-      },
-      {
-        "productTitle": "Sunnyvale Original Spread 500g",
-        "productPrice": "$2.69",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/sunnyvale-original-spread-500g/"
-      },
-      {
-        "productTitle": "Sunnyvale Cholesterol Spread 500g",
-        "productPrice": "$4.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/sunnyvale-cholesterol-spread-500g/"
-      },
-      {
-        "productTitle": "Sunnyvale Table Spread 1kg",
-        "productPrice": "$3.29",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/sunnyvale-table-spread-1kg/"
-      },
-      {
-        "productTitle": "Beautifully Butterfully Dairy Spread 500g",
-        "productPrice": "$4.79",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/beautifully-butterfully-dairy-spread-500g/"
-      },
-      {
-        "productTitle": "Pure Valley Salted Organic Butter 250g",
-        "productPrice": "$4.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pure-valley-salted-organic-butter-250g/"
-      },
-      {
-        "productTitle": "Pure Valley Salted Butter 250g",
-        "productPrice": "$3.69",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pure-valley-salted-butter-250g/"
-      },
-      {
-        "productTitle": "Pure Valley Unsalted Butter 250g",
-        "productPrice": "$3.69",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pure-valley-unsalted-butter-250g/"
-      },
-      {
-        "productTitle": "Pure Valley Salted Butter 500g",
-        "productPrice": "$6.39",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pure-valley-salted-butter-500g/"
-      },
-      {
-        "productTitle": "Pure Valley Unsalted Butter 500g",
-        "productPrice": "$6.39",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pure-valley-unsalted-butter-500g/"
-      },
-      {
-        "productTitle": "Beautifully Butterfully Caterer’s Selection Buttery Spread 1kg",
-        "productPrice": "$4.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/beautifully-butterfully-caterers-selection-buttery/"
-      },
-      {
-        "productTitle": "Westacre Dairy Tasty Cheese Block 250g",
-        "productPrice": "$5.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-tasty-cheese-block-250g/"
-      },
-      {
-        "productTitle": "Westacre Dairy Shredded Tasty Cheese 250g",
-        "productPrice": "$4.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-shredded-tasty-cheese-250g/"
-      },
-      {
-        "productTitle": "Westacre Dairy Shredded Tasty Cheese 700g",
-        "productPrice": "$9.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-shredded-tasty-cheese-700g/"
-      },
-      {
-        "productTitle": "Westacre Dairy Shredded Parmesan Cheese 250g",
-        "productPrice": "$5.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-shredded-parmesan-cheese-250g/"
-      },
-      {
-        "productTitle": "Westacre Dairy Tasty Cheese Slices 500g",
-        "productPrice": "$7.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-tasty-cheese-slices-500g/"
-      },
-      {
-        "productTitle": "Westacre Dairy Tasty Cheese Block 500g",
-        "productPrice": "$6.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-tasty-cheese-block-500g/"
-      },
-      {
-        "productTitle": "Westacre Dairy Tasty Cheese Block 1kg",
-        "productPrice": "$9.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-tasty-cheese-block-1kg/"
-      },
-      {
-        "productTitle": "Westacre Dairy Vintage Cheese Block 500g",
-        "productPrice": "$6.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-vintage-cheese-block-500g/"
-      },
-      {
-        "productTitle": "Emporium Selection Ash Brie 150g",
-        "productPrice": "$4.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/emporium-selection-ash-brie-150g/"
-      },
-      {
-        "productTitle": "Emporium Selection Double Cream Camembert 200g",
-        "productPrice": "$4.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/emporium-selection-double-cream-camembert-200g-7/"
-      },
-      {
-        "productTitle": "Emporium Selection Triple Cream Brie 200g",
-        "productPrice": "$4.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/emporium-selection-triple-cream-brie-200g-7/"
-      },
-      {
-        "productTitle": "Emporium Selection Camembert 125g",
-        "productPrice": "$2.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/emporium-selection-camembert-125g-2/"
-      },
-      {
-        "productTitle": "Emporium Selection Brie 125g",
-        "productPrice": "$2.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/emporium-selection-brie-125g/"
-      },
-      {
-        "productTitle": "Emporium Selection Persian Fetta 180g",
-        "productPrice": "$3.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/emporium-selection-persian-fetta-180g/"
-      },
-      {
-        "productTitle": "Emporium Selection Danish Style Fetta Cheese 200g",
-        "productPrice": "$2.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/emporium-selection-danish-style-fetta-cheese-200g/"
-      },
-      {
-        "productTitle": "Emporium Selection Greek Style Fetta Cheese 200g",
-        "productPrice": "$2.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/emporium-selection-greek-style-fetta-cheese-200g/"
-      },
-      {
-        "productTitle": "Westacre Colby Cheese Block 500g",
-        "productPrice": "$6.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-colby-cheese-block-500g-1/"
-      },
-      {
-        "productTitle": "Westacre Dairy Wrapped Cheese Slices 432g",
-        "productPrice": "$3.30c99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-wrapped-cheese-slices-432g-1/"
-      },
-      {
-        "productTitle": "Westacre Dairy Wrapped Cheese Slices 432g",
-        "productPrice": "$3.30c99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-wrapped-cheese-slices-432g/"
-      },
-      {
-        "productTitle": "Westacre Dairy Vintage Cheese Slices 250g",
-        "productPrice": "$5.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-vintage-cheese-slices-250g/"
-      },
-      {
-        "productTitle": "Westacre Dairy Tasty Cheese Slices 250g",
-        "productPrice": "$5.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-tasty-cheese-slices-250g/"
-      },
-      {
-        "productTitle": "Manhattan Cottage Cheese 500g",
-        "productPrice": "$5.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/manhattan-cottage-cheese-500g-1/"
-      },
-      {
-        "productTitle": "Westacre Dairy Smooth Ricotta 375g",
-        "productPrice": "$3.29",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-smooth-ricotta-375g/"
-      },
-      {
-        "productTitle": "Emporium Selection Apricot & Almond Cream Cheese 200g",
-        "productPrice": "$3.59",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/emporium-selection-apricot-almond-cream-cheese-200-1/"
-      },
-      {
-        "productTitle": "Snackers Market Salami, Cheese and Crackers 50g",
-        "productPrice": "$2.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-salami-cheese-and-crackers-50g/"
-      },
-      {
-        "productTitle": "Snackers Market Cheese & Pretzels 40g",
-        "productPrice": "$1.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-cheese-pretzels-40g/"
-      },
-      {
-        "productTitle": "Snackers Market Cheese & Mini Crackers 35g",
-        "productPrice": "$1.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-cheese-mini-crackers-35g/"
-      },
-      {
-        "productTitle": "Snackers Market Cheese Strips 8pk/168g",
-        "productPrice": "$3.79",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-cheese-strips-8pk168g/"
-      },
-      {
-        "productTitle": "Snackers Market Ham, Cheese and Crackers 50g",
-        "productPrice": "$2.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-ham-cheese-and-crackers-50g/"
-      },
-      {
-        "productTitle": "Snackers Market Dip & Crackers 65g",
-        "productPrice": "$1.69",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-dip-crackers-65g/"
-      },
-      {
-        "productTitle": "Snackers Market Tasty Cheese and Crackers 4pk",
-        "productPrice": "$3.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-tasty-cheese-and-crackers-4pk/"
-      },
-      {
-        "productTitle": "Snackers Market Cheese Streamers 160g",
-        "productPrice": "$4.29",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-cheese-streamers-160g/"
-      },
-      {
-        "productTitle": "Snackers Market Cheese and Cabanossi 50g",
-        "productPrice": "$2.79",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-cheese-and-cabanossi-50g/"
-      },
-      {
-        "productTitle": "Snackers Market Edam Gouda Squares 100g",
-        "productPrice": "$2.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-edam-gouda-squares-100g/"
-      },
-      {
-        "productTitle": "FARMDALE Thickened Cream 600ml",
-        "productPrice": "$4.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-thickened-cream-600ml-1/"
-      },
-      {
-        "productTitle": "FARMDALE Light Thickened Cream 300ml",
-        "productPrice": "$2.79",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-light-thickened-cream-300ml/"
-      },
-      {
-        "productTitle": "FARMDALE Sour Cream 300g",
-        "productPrice": "$3.19",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-sour-cream-300g-1/"
-      },
-      {
-        "productTitle": "FARMDALE Light Sour Cream 300g",
-        "productPrice": "$3.19",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-light-sour-cream-300g/"
-      },
-      {
-        "productTitle": "Farmdale Whipped Cream 250g",
-        "productPrice": "$5.29",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-whipped-cream-250g/"
-      },
-      {
-        "productTitle": "Farmdale Pouring Cream 300ml",
-        "productPrice": "$2.79",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-pouring-cream-300ml/"
-      },
-      {
-        "productTitle": "Farmdale Thickened Cream 300ml",
-        "productPrice": "$2.79",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-thickened-cream-300ml/"
-      },
-      {
-        "productTitle": "Lyttos Greek Style Natural Yogurt 2kg",
-        "productPrice": "$10.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/lyttos-greek-style-natural-yogurt-2kg-3/"
-      },
-      {
-        "productTitle": "Brooklea Joi Mango Yogurt 1kg",
-        "productPrice": "$3.79",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/brooklea-joi-mango-yogurt-1kg/"
-      },
-      {
-        "productTitle": "Brooklea Family Lite Yogurt 1kg",
-        "productPrice": "$3.79",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/brooklea-family-lite-yogurt-1kg/"
-      },
-      {
-        "productTitle": "Brooklea Organic Natural Yogurt 1kg",
-        "productPrice": "$4.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/brooklea-organic-natural-yogurt-1kg/"
-      },
-      {
-        "productTitle": "Brooklea Organic Vanilla Bean Yogurt 1kg",
-        "productPrice": "$4.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/brooklea-organic-vanilla-bean-yogurt-1kg/"
-      },
-      {
-        "productTitle": "Premiere Fruit Swirl Blueberry Yogurt 720g",
-        "productPrice": "$5.79",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/premiere-fruit-swirl-blueberry-yogurt-720g/"
-      },
-      {
-        "productTitle": "Brooklea Greek Style Yoghurt No Added Sugar 750g",
-        "productPrice": "$4.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/brooklea-greek-style-yoghurt-no-added-sugar-750g/"
-      },
-      {
-        "productTitle": "Premiére Mango Yogurt 4x115g",
-        "productPrice": "$3.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/premire-mango-yogurt-4x115g/"
-      },
-      {
-        "productTitle": "Brooklea Joi Deluxe Yogurt Classics 6 x 150g",
-        "productPrice": "$3.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/brooklea-joi-deluxe-yogurt-classics-6-x-150g/"
-      },
-      {
-        "productTitle": "Brooklea Yogurt Squishies 70g",
-        "productPrice": "69c",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/brooklea-yogurt-squishies-70g/"
-      },
-      {
-        "productTitle": "Brooklea Yogurt Assorted Varieties 100g",
-        "productPrice": "$1.69",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/brooklea-yogurt-assorted-varieties-100g/"
-      },
-      {
-        "productTitle": "Yoguri High Protein Cup Vanilla 160g",
-        "productPrice": "$1.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/yoguri-high-protein-cup-vanilla-160g/"
-      },
-      {
-        "productTitle": "Yoguri High Protein Cup Strawberry 160g",
-        "productPrice": "$1.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/yoguri-high-protein-cup-strawberry-160g/"
-      },
-      {
-        "productTitle": "Yoguri High Protein Cup Salted Caramel 160g",
-        "productPrice": "$1.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/yoguri-high-protein-cup-salted-caramel-160g/"
-      },
-      {
-        "productTitle": "Premiere Indulgent Tropical 990g",
-        "productPrice": "$5.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/premiere-indulgent-tropical-990g/"
-      },
-      {
-        "productTitle": "Premiere Indulgent Vanilla Bean 990g",
-        "productPrice": "$5.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/premiere-indulgent-vanilla-bean-990g/"
-      },
-      {
-        "productTitle": "Premiere Indulgent Mix Berry 990g",
-        "productPrice": "$5.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/premiere-indulgent-mix-berry-990g/"
-      },
-      {
-        "productTitle": "Chocolate Stampede Dairy Snack 12pk",
-        "productPrice": "$4.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/chocolate-stampede-dairy-snack-12pk/"
-      },
-      {
-        "productTitle": "Chocolate Stampede Dairy Snack 140g",
-        "productPrice": "$1.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/chocolate-stampede-dairy-snack-140g/"
-      },
-      {
-        "productTitle": "Vanilla Flavoured Custard Pouch 70g",
-        "productPrice": "$1.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/vanilla-flavoured-custard-pouch-70g/"
-      },
-      {
-        "productTitle": "Chocolate Flavoured Custard Pouch 70g",
-        "productPrice": "$1.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/chocolate-flavoured-custard-pouch-70g/"
-      },
-      {
-        "productTitle": "Marvellicious Choc Mousse 12pk",
-        "productPrice": "$5.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/marvellicious-choc-mousse-12pk/"
-      },
-      {
-        "productTitle": "Food Envy Chocolate Mousse 2 x 62g",
-        "productPrice": "$2.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/food-envy-chocolate-mousse-2-x-62g/"
-      },
-      {
-        "productTitle": "Food Envy Chocolate Mousse with Salted Caramel 2 x 62g",
-        "productPrice": "$2.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/food-envy-chocolate-mousse-with-salted-caramel-2-x/"
-      },
-      {
-        "productTitle": "Food Envy Crème Caramel 2 x 150g",
-        "productPrice": "$2.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/food-envy-creme-caramel-2-x-150g-1/"
-      },
-      {
-        "productTitle": "Vanilla Flavoured Custard 1kg",
-        "productPrice": "$2.59",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/vanilla-flavoured-custard-1kg/"
-      },
-      {
-        "productTitle": "Food Envy Sweet Crepes 8pk/480g",
-        "productPrice": "$3.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/food-envy-sweet-crepes-8pk480g/"
-      },
-      {
-        "productTitle": "Food Envy Mini Dutch Pancakes 250g",
-        "productPrice": "$3.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/food-envy-mini-dutch-pancakes-250g/"
-      },
-      {
-        "productTitle": "Food Envy Rice Pudding Vanilla Bean 2 x 170g",
-        "productPrice": "$2.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/food-envy-rice-pudding-vanilla-bean-2-x-170g/"
-      },
-      {
-        "productTitle": "Food Envy Italian Family Desserts 500g",
-        "productPrice": "$6.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/food-envy-italian-family-desserts-500g/"
-      },
-      {
-        "productTitle": "Pick’d Orange Pulp 2L",
-        "productPrice": "$4.69",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pickd-orange-pulp-2l/"
-      },
-      {
-        "productTitle": "Pick’d Orange Pulp Free 2L",
-        "productPrice": "$4.69",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pickd-orange-pulp-free-2l/"
-      },
-      {
-        "productTitle": "Pick'd Apple Mango 2L",
-        "productPrice": "$4.99",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pickd-apple-mango-2l/"
-      },
-      {
-        "productTitle": "Pick'd Cloudy Apple 2L",
-        "productPrice": "$4.69",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pickd-cloudy-apple-2l/"
-      },
-      {
-        "productTitle": "Pick'd Orange Pulp 1L",
-        "productPrice": "$3.49",
-        "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pickd-orange-pulp-1l/"
-      },
-      {
-        "productTitle": "",
-        "productPrice": "",
-        "productUrl": "https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.aldi.com.au%2Fgroceries%2Ffresh-produce%2Fdairy-eggs%2F&t=ALDI+Australia"
-      },
-      {
-        "productTitle": "",
-        "productPrice": "",
-        "productUrl": "https://twitter.com/home?status=https%3A%2F%2Fwww.aldi.com.au%2Fgroceries%2Ffresh-produce%2Fdairy-eggs%2F"
-      },
-      {
-        "productTitle": "",
-        "productPrice": "",
-        "productUrl": "https://www.youtube.com/user/ALDIAustralia"
-      },
-      {
-        "productTitle": "",
-        "productPrice": "",
-        "productUrl": "https://www.facebook.com/ALDI.Australia"
-      },
-      {
-        "productTitle": "",
-        "productPrice": "",
-        "productUrl": "https://www.instagram.com/aldiaustralia/?hl=en"
-      },
-      {
-        "productTitle": "",
-        "productPrice": "",
-        "productUrl": "https://twitter.com/aldiaustralia"
-      },
-      {
-        "productTitle": "",
-        "productPrice": "",
-        "productUrl": "https://www.youtube.com/user/ALDIAustralia"
-      }
-    ]
+    "productTitle": "Inner Goodness Soy Milk 1L",
+    "productPrice": 2.29,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/inner-goodness-soy-milk-1l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Inner Goodness Almond Milk 1L",
+    "productPrice": 2.79,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/inner-goodness-almond-milk-1l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Farmdale Organic Full Cream Milk 1L",
+    "productPrice": 2.39,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-organic-full-cream-milk-1l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Farmdale Full Cream Milk UHT 1L",
+    "productPrice": 1.59,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-full-cream-milk-uht-1l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Farmdale Light Milk UHT 1L",
+    "productPrice": 1.59,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-light-milk-uht-1l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Farmdale Skim Milk UHT 1L",
+    "productPrice": 1.59,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-skim-milk-uht-1l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Farmdale Full Cream Milk UHT 2L",
+    "productPrice": 3.09,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-full-cream-milk-uht-2l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Farmdale Skim Milk UHT 2L",
+    "productPrice": 3.09,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-skim-milk-uht-2l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Farmdale Lactose Free UHT Milk 1L",
+    "productPrice": 1.59,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-lactose-free-uht-milk-1l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Farmdale Lactose Free Low Fat UHT Milk 1L",
+    "productPrice": 1.59,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-lactose-free-low-fat-uht-milk-1l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Farmdale Lactose Free Full Cream Milk 1L",
+    "productPrice": 2.79,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-lactose-free-full-cream-milk-1l-1/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "CHAMP Iced Coffee Flavoured Milk 600ml",
+    "productPrice": 2.79,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/champ-iced-coffee-flavoured-milk-600ml/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "CHAMP Iced Coffee Flavoured Milk 2L",
+    "productPrice": 3.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/champ-iced-coffee-flavoured-milk-2l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "CHAMP Chocolate Flavoured Milk 600ml",
+    "productPrice": 2.79,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/champ-chocolate-flavoured-milk-600ml/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "CHAMP Chocolate Flavoured Milk 2L",
+    "productPrice": 3.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/champ-chocolate-flavoured-milk-2l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Farmdale Full Cream Milk Powder 1kg",
+    "productPrice": 8.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-full-cream-milk-powder-1kg-1/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "UHT Soy Organic Milk 1L",
+    "productPrice": 1.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/uht-soy-organic-milk-1l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "UHT Milk Soy 1L",
+    "productPrice": 1.15,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/uht-milk-soy-1l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "UHT Milk Soy Light 1L",
+    "productPrice": 1.15,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/uht-milk-soy-light-1l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Milk UHT Almond Unsweetened 1L",
+    "productPrice": 1.89,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/milk-uht-almond-unsweetened-1l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Milk UHT Almond Original 1L",
+    "productPrice": 1.89,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/milk-uht-almond-original-1l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "UHT Oat Milk 1L",
+    "productPrice": 1.89,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/uht-oat-milk-1l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Inner Goodness Long Life Rice Milk 1L",
+    "productPrice": 1.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/inner-goodness-long-life-rice-milk-1l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Inner Goodness - Barista Long Life Almond Unsweetened Milk 1L",
+    "productPrice": 2.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/inner-goodness-barista-long-life-almond-unsweetene/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Inner Goodness - Barista Long Life Oat Milk 1L",
+    "productPrice": 2.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/inner-goodness-barista-long-life-oat-milk-1l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Biocult Fermented Milk 5 x 65ml",
+    "productPrice": 3.19,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/biocult-fermented-milk-5-x-65ml/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Farmdale Moobox Milk Strawberry 6pk",
+    "productPrice": 4.69,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-moobox-milk-strawberry-6pk/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Farmdale Moobox Milk Chocolate 6pk",
+    "productPrice": 4.69,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-moobox-milk-chocolate-6pk/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Farmdale Sweetened Condensed Milk 397g",
+    "productPrice": 1.79,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-sweetened-condensed-milk-397g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Farmdale Evaporated Milk 384mL",
+    "productPrice": 1.89,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-evaporated-milk-384ml/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Lodge Farms Large Free Range Eggs 12pk/600g",
+    "productPrice": 4.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/lodge-farms-large-free-range-eggs-12pk600g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Lodge Farms Extra Large Free Range Eggs 12pk/700g",
+    "productPrice": 5.19,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/lodge-farms-extra-large-free-range-eggs-12pk700g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Sunnyvale Olive Spread Regular 500g",
+    "productPrice": 3.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/sunnyvale-olive-spread-regular-500g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Sunnyvale Olive Spread Light 500g",
+    "productPrice": 3.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/sunnyvale-olive-spread-light-500g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Sunnyvale Original Spread 500g",
+    "productPrice": 2.69,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/sunnyvale-original-spread-500g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Sunnyvale Cholesterol Spread 500g",
+    "productPrice": 4.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/sunnyvale-cholesterol-spread-500g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Sunnyvale Table Spread 1kg",
+    "productPrice": 3.29,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/sunnyvale-table-spread-1kg/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Beautifully Butterfully Dairy Spread 500g",
+    "productPrice": 4.79,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/beautifully-butterfully-dairy-spread-500g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Pure Valley Salted Organic Butter 250g",
+    "productPrice": 4.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pure-valley-salted-organic-butter-250g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Pure Valley Salted Butter 250g",
+    "productPrice": 3.69,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pure-valley-salted-butter-250g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Pure Valley Unsalted Butter 250g",
+    "productPrice": 3.69,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pure-valley-unsalted-butter-250g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Pure Valley Salted Butter 500g",
+    "productPrice": 6.39,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pure-valley-salted-butter-500g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Pure Valley Unsalted Butter 500g",
+    "productPrice": 6.39,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pure-valley-unsalted-butter-500g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Beautifully Butterfully Caterer’s Selection Buttery Spread 1kg",
+    "productPrice": 4.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/beautifully-butterfully-caterers-selection-buttery/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Westacre Dairy Tasty Cheese Block 250g",
+    "productPrice": 5.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-tasty-cheese-block-250g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Westacre Dairy Shredded Tasty Cheese 250g",
+    "productPrice": 4.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-shredded-tasty-cheese-250g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Westacre Dairy Shredded Tasty Cheese 700g",
+    "productPrice": 9.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-shredded-tasty-cheese-700g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Westacre Dairy Shredded Parmesan Cheese 250g",
+    "productPrice": 5.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-shredded-parmesan-cheese-250g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Westacre Dairy Tasty Cheese Slices 500g",
+    "productPrice": 7.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-tasty-cheese-slices-500g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Westacre Dairy Tasty Cheese Block 500g",
+    "productPrice": 6.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-tasty-cheese-block-500g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Westacre Dairy Tasty Cheese Block 1kg",
+    "productPrice": 9.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-tasty-cheese-block-1kg/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Westacre Dairy Vintage Cheese Block 500g",
+    "productPrice": 6.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-vintage-cheese-block-500g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Emporium Selection Ash Brie 150g",
+    "productPrice": 4.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/emporium-selection-ash-brie-150g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Emporium Selection Double Cream Camembert 200g",
+    "productPrice": 4.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/emporium-selection-double-cream-camembert-200g-7/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Emporium Selection Triple Cream Brie 200g",
+    "productPrice": 4.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/emporium-selection-triple-cream-brie-200g-7/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Emporium Selection Camembert 125g",
+    "productPrice": 2.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/emporium-selection-camembert-125g-2/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Emporium Selection Brie 125g",
+    "productPrice": 2.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/emporium-selection-brie-125g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Emporium Selection Persian Fetta 180g",
+    "productPrice": 3.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/emporium-selection-persian-fetta-180g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Emporium Selection Danish Style Fetta Cheese 200g",
+    "productPrice": 2.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/emporium-selection-danish-style-fetta-cheese-200g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Emporium Selection Greek Style Fetta Cheese 200g",
+    "productPrice": 2.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/emporium-selection-greek-style-fetta-cheese-200g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Westacre Colby Cheese Block 500g",
+    "productPrice": 6.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-colby-cheese-block-500g-1/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Westacre Dairy Wrapped Cheese Slices 432g",
+    "productPrice": 3.3,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-wrapped-cheese-slices-432g-1/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Westacre Dairy Wrapped Cheese Slices 432g",
+    "productPrice": 3.3,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-wrapped-cheese-slices-432g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Westacre Dairy Vintage Cheese Slices 250g",
+    "productPrice": 5.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-vintage-cheese-slices-250g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Westacre Dairy Tasty Cheese Slices 250g",
+    "productPrice": 5.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-tasty-cheese-slices-250g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Manhattan Cottage Cheese 500g",
+    "productPrice": 5.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/manhattan-cottage-cheese-500g-1/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Westacre Dairy Smooth Ricotta 375g",
+    "productPrice": 3.29,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/westacre-dairy-smooth-ricotta-375g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Emporium Selection Apricot & Almond Cream Cheese 200g",
+    "productPrice": 3.59,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/emporium-selection-apricot-almond-cream-cheese-200-1/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Snackers Market Salami, Cheese and Crackers 50g",
+    "productPrice": 2.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-salami-cheese-and-crackers-50g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Snackers Market Cheese & Pretzels 40g",
+    "productPrice": 1.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-cheese-pretzels-40g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Snackers Market Cheese & Mini Crackers 35g",
+    "productPrice": 1.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-cheese-mini-crackers-35g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Snackers Market Cheese Strips 8pk/168g",
+    "productPrice": 3.79,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-cheese-strips-8pk168g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Snackers Market Ham, Cheese and Crackers 50g",
+    "productPrice": 2.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-ham-cheese-and-crackers-50g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Snackers Market Dip & Crackers 65g",
+    "productPrice": 1.69,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-dip-crackers-65g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Snackers Market Tasty Cheese and Crackers 4pk",
+    "productPrice": 3.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-tasty-cheese-and-crackers-4pk/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Snackers Market Cheese Streamers 160g",
+    "productPrice": 4.29,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-cheese-streamers-160g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Snackers Market Cheese and Cabanossi 50g",
+    "productPrice": 2.79,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-cheese-and-cabanossi-50g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Snackers Market Edam Gouda Squares 100g",
+    "productPrice": 2.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/snackers-market-edam-gouda-squares-100g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "FARMDALE Thickened Cream 600ml",
+    "productPrice": 4.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-thickened-cream-600ml-1/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "FARMDALE Light Thickened Cream 300ml",
+    "productPrice": 2.79,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-light-thickened-cream-300ml/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "FARMDALE Sour Cream 300g",
+    "productPrice": 3.19,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-sour-cream-300g-1/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "FARMDALE Light Sour Cream 300g",
+    "productPrice": 3.19,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-light-sour-cream-300g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Farmdale Whipped Cream 250g",
+    "productPrice": 5.29,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-whipped-cream-250g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Farmdale Pouring Cream 300ml",
+    "productPrice": 2.79,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-pouring-cream-300ml/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Farmdale Thickened Cream 300ml",
+    "productPrice": 2.79,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/farmdale-thickened-cream-300ml/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Lyttos Greek Style Natural Yogurt 2kg",
+    "productPrice": 10.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/lyttos-greek-style-natural-yogurt-2kg-3/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Brooklea Joi Mango Yogurt 1kg",
+    "productPrice": 3.79,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/brooklea-joi-mango-yogurt-1kg/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Brooklea Family Lite Yogurt 1kg",
+    "productPrice": 3.79,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/brooklea-family-lite-yogurt-1kg/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Brooklea Organic Natural Yogurt 1kg",
+    "productPrice": 4.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/brooklea-organic-natural-yogurt-1kg/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Brooklea Organic Vanilla Bean Yogurt 1kg",
+    "productPrice": 4.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/brooklea-organic-vanilla-bean-yogurt-1kg/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Premiere Fruit Swirl Blueberry Yogurt 720g",
+    "productPrice": 5.79,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/premiere-fruit-swirl-blueberry-yogurt-720g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Brooklea Greek Style Yoghurt No Added Sugar 750g",
+    "productPrice": 4.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/brooklea-greek-style-yoghurt-no-added-sugar-750g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Premiére Mango Yogurt 4x115g",
+    "productPrice": 3.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/premire-mango-yogurt-4x115g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Brooklea Joi Deluxe Yogurt Classics 6 x 150g",
+    "productPrice": 3.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/brooklea-joi-deluxe-yogurt-classics-6-x-150g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Brooklea Yogurt Squishies 70g",
+    "productPrice": 69,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/brooklea-yogurt-squishies-70g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Brooklea Yogurt Assorted Varieties 100g",
+    "productPrice": 1.69,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/brooklea-yogurt-assorted-varieties-100g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Yoguri High Protein Cup Vanilla 160g",
+    "productPrice": 1.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/yoguri-high-protein-cup-vanilla-160g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Yoguri High Protein Cup Strawberry 160g",
+    "productPrice": 1.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/yoguri-high-protein-cup-strawberry-160g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Yoguri High Protein Cup Salted Caramel 160g",
+    "productPrice": 1.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/yoguri-high-protein-cup-salted-caramel-160g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Premiere Indulgent Tropical 990g",
+    "productPrice": 5.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/premiere-indulgent-tropical-990g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Premiere Indulgent Vanilla Bean 990g",
+    "productPrice": 5.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/premiere-indulgent-vanilla-bean-990g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Premiere Indulgent Mix Berry 990g",
+    "productPrice": 5.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/premiere-indulgent-mix-berry-990g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Chocolate Stampede Dairy Snack 12pk",
+    "productPrice": 4.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/chocolate-stampede-dairy-snack-12pk/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Chocolate Stampede Dairy Snack 140g",
+    "productPrice": 1.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/chocolate-stampede-dairy-snack-140g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Vanilla Flavoured Custard Pouch 70g",
+    "productPrice": 1.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/vanilla-flavoured-custard-pouch-70g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Chocolate Flavoured Custard Pouch 70g",
+    "productPrice": 1.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/chocolate-flavoured-custard-pouch-70g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Marvellicious Choc Mousse 12pk",
+    "productPrice": 5.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/marvellicious-choc-mousse-12pk/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Food Envy Chocolate Mousse 2 x 62g",
+    "productPrice": 2.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/food-envy-chocolate-mousse-2-x-62g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Food Envy Chocolate Mousse with Salted Caramel 2 x 62g",
+    "productPrice": 2.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/food-envy-chocolate-mousse-with-salted-caramel-2-x/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Food Envy Crème Caramel 2 x 150g",
+    "productPrice": 2.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/food-envy-creme-caramel-2-x-150g-1/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Vanilla Flavoured Custard 1kg",
+    "productPrice": 2.59,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/vanilla-flavoured-custard-1kg/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Food Envy Sweet Crepes 8pk/480g",
+    "productPrice": 3.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/food-envy-sweet-crepes-8pk480g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Food Envy Mini Dutch Pancakes 250g",
+    "productPrice": 3.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/food-envy-mini-dutch-pancakes-250g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Food Envy Rice Pudding Vanilla Bean 2 x 170g",
+    "productPrice": 2.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/food-envy-rice-pudding-vanilla-bean-2-x-170g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Food Envy Italian Family Desserts 500g",
+    "productPrice": 6.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/food-envy-italian-family-desserts-500g/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Pick’d Orange Pulp 2L",
+    "productPrice": 4.69,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pickd-orange-pulp-2l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Pick’d Orange Pulp Free 2L",
+    "productPrice": 4.69,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pickd-orange-pulp-free-2l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Pick'd Apple Mango 2L",
+    "productPrice": 4.99,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pickd-apple-mango-2l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Pick'd Cloudy Apple 2L",
+    "productPrice": 4.69,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pickd-cloudy-apple-2l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "Pick'd Orange Pulp 1L",
+    "productPrice": 3.49,
+    "productUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/dairy-eggs-detail/ps/p/pickd-orange-pulp-1l/",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "",
+    "productPrice": null,
+    "productUrl": "https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.aldi.com.au%2Fgroceries%2Ffresh-produce%2Fdairy-eggs%2F&t=ALDI+Australia",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "",
+    "productPrice": null,
+    "productUrl": "https://twitter.com/home?status=https%3A%2F%2Fwww.aldi.com.au%2Fgroceries%2Ffresh-produce%2Fdairy-eggs%2F",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "",
+    "productPrice": null,
+    "productUrl": "https://www.youtube.com/user/ALDIAustralia",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "",
+    "productPrice": null,
+    "productUrl": "https://www.facebook.com/ALDI.Australia",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "",
+    "productPrice": null,
+    "productUrl": "https://www.instagram.com/aldiaustralia/?hl=en",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "",
+    "productPrice": null,
+    "productUrl": "https://twitter.com/aldiaustralia",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
+  },
+  {
+    "productTitle": "",
+    "productPrice": null,
+    "productUrl": "https://www.youtube.com/user/ALDIAustralia",
+    "paginationUrl": "https://www.aldi.com.au/groceries/fresh-produce/dairy-eggs/"
   }
 ]

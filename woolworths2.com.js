@@ -17,14 +17,15 @@ const test= async () =>{
 
     while(paginationQueueURLsToVisit.length !== 0 && visitedURLs.length <= maxPages){
       let onPageProducts=[];
-      const paginationURLRoot = paginationQueueURLsToVisit.pop();
+      const paginationURLRoot = paginationQueueURLsToVisit.shift();
+      console.log("Popping:", paginationURLRoot);
       if(!paginationURLRoot || paginationURLRoot==='undefined' || paginationURLRoot===undefined){
         break;
       }
       visitedURLs.push(paginationURLRoot);
 
       await page.goto(`${mainDomain}${paginationURLRoot}`, { waitUntil: 'domcontentloaded' });
-      await page.waitForSelector('wc-product-tile', { visible: true, timeout: 2 * 60000 });
+      await page.waitForSelector('wc-product-tile', { visible: true, timeout: 5 * 60000 });
       onPageProducts = await page.evaluate(() => {
         const onPageProducts = [];
         const shadowRoots=[];
@@ -32,23 +33,33 @@ const test= async () =>{
         wcProductTiles.forEach((wcProductTile) => {
           const shadowRoot = wcProductTile.shadowRoot;
           const titleElement = shadowRoot.querySelector('.title a');
-          const title = titleElement ? titleElement.textContent.trim() : null;
+          const productTitle = titleElement ? titleElement.textContent.trim() : null;
     // Extracting price logic
           const priceElement = shadowRoot.querySelector('.product-tile-price .primary');
-          const productPrice = priceElement ? priceElement.textContent.trim() : null;
-          const productUrl= titleElement.getAttribute('href')
-          if(productPrice!==null)
-            onPageProducts.push({ title, productPrice, productUrl });
+          let productPrice = priceElement ? priceElement.textContent.trim() : null;
           
+          const productUrl= 'https://www.woolworths.com.au'+titleElement.getAttribute('href');
+          const productImageElement=shadowRoot.querySelector('.product-tile-image img');
+          const productImage= productImageElement.getAttribute('src');
+          if(productPrice && productPrice!==null)
+            productPrice = productPrice.replace('$', '');            
+            onPageProducts.push({ productTitle, productPrice, productUrl, productImage });          
         });
         return onPageProducts;
       });      
-      console.log('onPageProducts:', onPageProducts);
+      // console.log('onPageProducts:', onPageProducts);
       let paginationObj={
         "paginationUrl":`${mainDomain}${paginationURLRoot}`
       };
-      paginationObj['onPageProducts']=onPageProducts;
-      products.push(paginationObj);
+      // paginationObj['onPageProducts']=onPageProducts;
+      // products.push(paginationObj);
+      onPageProducts.map((product) =>{
+        product["paginationUrl"]=`${mainDomain}${paginationURLRoot}`;
+        products.push(product);
+      })
+      const productsString = JSON.stringify(products, null, 2);
+      fs.writeFileSync('./WoolsProducts.json', productsString);
+
       const navigationLinks = await page.$$eval('.paging-section a', (pages) => {
         return pages.map((page) => page.getAttribute('href'));
       });
@@ -60,8 +71,7 @@ const test= async () =>{
       })
     }
     await browser.close();    
-    const productsString = JSON.stringify(products, null, 2);
-    fs.writeFileSync('./WoolsProducts.json', productsString);
+
 }
 test();
 

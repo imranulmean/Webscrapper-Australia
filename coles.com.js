@@ -32,18 +32,21 @@ async function webSpider() {
         productLinks.each((index, element) => {
           const productTitle = $(element).find('.product__title').text().trim();
           const productPrice = $(element).closest("section").find('.price__value').text().trim();
-          const cleanedPrice = productPrice.replace(/\$([0-9]+\.[0-9]+)\$\1/, '$$$1');
-          const productUrl=$(element).attr('href');
+          let cleanedPrice = productPrice.replace(/\$([0-9]+\.[0-9]+)\$\1/, '$$$1');
+          const productUrl='https://www.coles.com.au'+$(element).attr('href');
           console.log(`Product Title ${index + 1}: ${productTitle} Price: ${cleanedPrice}`);
-          let productInfo={productTitle, productPrice:cleanedPrice, productUrl};
-          if(productTitle!=="" &&  productPrice!==""){
-            
-            onPageProducts.push(productInfo);
-            count++;
+          
+          if(productTitle!=="" &&  productPrice!==""){            
+            // onPageProducts.push(productInfo);
+            // count++;
+            cleanedPrice=cleanedPrice.replace('$', '');
+            let productInfo={productTitle, productPrice:cleanedPrice, productUrl, 
+              "paginationUrl":`${mainDomain}${paginationURLRoot}`};
+            products.push(productInfo);
           }
       });      
-      paginationObj['onPageProducts']=onPageProducts;
-      products.push(paginationObj);
+      // paginationObj['onPageProducts']=onPageProducts;
+      // products.push(paginationObj);
 
       ///////////Now Get the Paginations Number //////////
       $('[data-testid="pagination"] li').each((index, element) => {
