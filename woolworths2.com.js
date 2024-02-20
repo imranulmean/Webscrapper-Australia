@@ -36,13 +36,14 @@ const test= async () =>{
           const productTitle = titleElement ? titleElement.textContent.trim() : null;
     // Extracting price logic
           const priceElement = shadowRoot.querySelector('.product-tile-price .primary');
-          let productPrice = priceElement ? priceElement.textContent.trim() : null;
+          let productPrice = priceElement ? priceElement.textContent.trim() : "";
           
           const productUrl= 'https://www.woolworths.com.au'+titleElement.getAttribute('href');
           const productImageElement=shadowRoot.querySelector('.product-tile-image img');
           const productImage= productImageElement.getAttribute('src');
-          if(productPrice && productPrice!==null)
-            productPrice = productPrice.replace('$', '');            
+          if(productPrice && productPrice!=="")
+            productPrice = productPrice.replace('$', '');
+            productPrice=parseFloat(productPrice);
             onPageProducts.push({ productTitle, productPrice, productUrl, productImage });          
         });
         return onPageProducts;

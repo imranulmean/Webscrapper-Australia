@@ -34,14 +34,19 @@ async function webSpider() {
           const productPrice = $(element).closest("section").find('.price__value').text().trim();
           let cleanedPrice = productPrice.replace(/\$([0-9]+\.[0-9]+)\$\1/, '$$$1');
           const productUrl='https://www.coles.com.au'+$(element).attr('href');
+          const productImage='https://www.coles.com.au'+$(element).find('img').attr('src');
           console.log(`Product Title ${index + 1}: ${productTitle} Price: ${cleanedPrice}`);
           
           if(productTitle!=="" &&  productPrice!==""){            
             // onPageProducts.push(productInfo);
             // count++;
             cleanedPrice=cleanedPrice.replace('$', '');
-            let productInfo={productTitle, productPrice:cleanedPrice, productUrl, 
-              "paginationUrl":`${mainDomain}${paginationURLRoot}`};
+            cleanedPrice=parseFloat(cleanedPrice);
+            let productInfo={
+              productTitle, productPrice:cleanedPrice, productUrl, 
+              "paginationUrl":`${mainDomain}${paginationURLRoot}`,
+              productImage
+            };
             products.push(productInfo);
           }
       });      

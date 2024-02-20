@@ -7,9 +7,13 @@ dotenv.config();
 const productSchema = new mongoose.Schema(
     {
         productTitle: String,
-        productPrice: String,
+        productPrice: Number,
         productUrl: String,
-        paginationUrl: String,        
+        paginationUrl: String,
+        productImage:{
+          type: String,
+          default:""
+        }
     },
     { timestamps: true }
 );
@@ -27,6 +31,8 @@ const woolsProducts = JSON.parse(fs.readFileSync('./WoolsProducts.json', 'utf8')
 const batchInsertData = async () => {
   try {
     // Insert data
+    // await deleteAllData();
+    // return
     await ProductModel.insertMany(aldiProducts);
     await ProductModel.insertMany(colesProducts);
     await ProductModel.insertMany(woolsProducts);
@@ -39,13 +45,22 @@ const batchInsertData = async () => {
 };
 
 const queryData=async()=>{
-  const totalProducts = await ProductModel.countDocuments({productUrl: { $regex: 'milk', $options: 'i' } });
+  const totalProducts = await ProductModel.countDocuments();
   console.log("totalProducts:", totalProducts);
-  const regexPattern="Woolworths";
+  const regexPattern="wool";
   const res=await ProductModel.find({
-    productUrl: { $regex: regexPattern, $options: 'i' } 
+    productTitle: { $regex: regexPattern, $options: 'i' } 
   });
   console.log(res)
+}
+
+const deleteAllData=async()=>{
+  try {
+    const res = await ProductModel.deleteMany();
+    console.log(res.deletedCount, "documents deleted");
+  } catch (error) {
+    console.error("Error:", error);
+  }
 }
 
 const deleteData=async()=>{
@@ -60,10 +75,8 @@ const deleteData=async()=>{
     console.error("Error:", error);
   }
 }
-queryData();
+ queryData();
 // batchInsertData();
 // deleteData();
 
-// MONGO=mongodb+srv://imranulhasan73:rantu@cluster0.vqhondi.mongodb.net/webscarpper?retryWrites=true&w=majority
-// VITE_FIREBASE_API_KEY=AIzaSyDyu3zPHWGI7Qmamx9mStYscCPY4hNgMZg
-// JWT_SECRET=MERN_Blog_AUTH_SECRET
+

@@ -2,7 +2,6 @@ import axios from 'axios';
 import cheerio from 'cheerio';
 import fs from 'fs';
 
-const url = 'https://www.coles.com.au/browse/dairy-eggs-fridge?pid=homepage_cat_explorer_dairy_eggs_fridge';
 const mainDomain="https://www.aldi.com.au/";
 const visitedURLs = []; 
 const productURLs = new Set(); 
@@ -35,10 +34,16 @@ async function webSpider() {
           let productPrice = $(element).find('.box--price .box--value').text().trim();
           const decimalPrice = $(element).find('.box--price .box--decimal').text().trim();
           productPrice=`${productPrice}${decimalPrice}`;
-          productPrice=productPrice.replace('$', '');
+          productPrice=productPrice.replace('$', '');          
           const productUrl=$(element).attr('href');
+          const productImage=$(element).find('img').attr('src');
           if(productUrl){
-            let productInfo={productTitle, productPrice,productUrl, "paginationUrl":`${mainDomain}${paginationURLRoot}`};
+            productPrice= parseFloat(productPrice);
+            let productInfo={
+                              productTitle, productPrice,productUrl, 
+                              "paginationUrl":`${mainDomain}${paginationURLRoot}`,
+                              productImage
+                            };
             // onPageProducts.push(productInfo);
             products.push(productInfo);
           }
