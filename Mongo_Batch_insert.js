@@ -13,13 +13,20 @@ const productSchema = new mongoose.Schema(
         productImage:{
           type: String,
           default:""
+        },
+        shop:{
+          type:String,
+          default:""
         }
     },
     { timestamps: true }
 );
 
 // Define the model
-const ProductModel = mongoose.model('Product', productSchema);
+// const ProductModel = mongoose.model('AllProduct', productSchema);
+const AldiCollection = mongoose.model('AldiProduct', productSchema);
+const ColesCollection = mongoose.model('ColesProduct', productSchema);
+const WoolsCollection = mongoose.model('WoolsProduct', productSchema);
 await mongoose.connect(process.env.MONGO);
 console.log('Connected to MongoDB');
 // Read JSON data from file
@@ -27,15 +34,14 @@ const aldiProducts = JSON.parse(fs.readFileSync('./AldiProducts.json', 'utf8'));
 const colesProducts = JSON.parse(fs.readFileSync('./ColesProducts.json', 'utf8'));
 const woolsProducts = JSON.parse(fs.readFileSync('./WoolsProducts.json', 'utf8'));
 
-// Batch insert data into MongoDB using Mongoose
 const batchInsertData = async () => {
   try {
     // Insert data
     // await deleteAllData();
     // return
-    await ProductModel.insertMany(aldiProducts);
-    await ProductModel.insertMany(colesProducts);
-    await ProductModel.insertMany(woolsProducts);
+    await AldiCollection.insertMany(aldiProducts);
+    await ColesCollection.insertMany(colesProducts);
+    await WoolsCollection.insertMany(woolsProducts);
     
     console.log('Data import complete');
   } finally {
@@ -75,8 +81,21 @@ const deleteData=async()=>{
     console.error("Error:", error);
   }
 }
- queryData();
+
+const batchUpdate= async () =>{
+  await AldiCollection.updateMany(
+    {
+      $set:{
+        shop:"Aldi"
+      },
+    }
+  );
+  console.log("Product Update Successfully")
+}
+//  queryData();
 // batchInsertData();
+batchUpdate();
 // deleteData();
+// deleteAllData();
 
 

@@ -25,7 +25,7 @@ const test= async () =>{
       visitedURLs.push(paginationURLRoot);
 
       await page.goto(`${mainDomain}${paginationURLRoot}`, { waitUntil: 'domcontentloaded' });
-      await page.waitForSelector('wc-product-tile', { visible: true, timeout: 5 * 60000 });
+      await page.waitForSelector('wc-product-tile', { visible: true, timeout: 10 * 60000, waitUntil: 'domcontentloaded' });
       onPageProducts = await page.evaluate(() => {
         const onPageProducts = [];
         const shadowRoots=[];
@@ -59,7 +59,7 @@ const test= async () =>{
         products.push(product);
       })
       const productsString = JSON.stringify(products, null, 2);
-      fs.writeFileSync('./WoolsProducts.json', productsString);
+      fs.writeFileSync('./WoolsProducts2.json', productsString);
 
       const navigationLinks = await page.$$eval('.paging-section a', (pages) => {
         return pages.map((page) => page.getAttribute('href'));
