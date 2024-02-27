@@ -36,7 +36,7 @@ async function webSpider() {
           productPrice=`${productPrice}${decimalPrice}`;
           productPrice=productPrice.replace('$', '');          
           const productUrl=$(element).attr('href');
-          const productImage=$(element).find('img').attr('src');
+          const productImage=$(element).find('.ratio-container.box--image-container img').attr('src');
           if(productUrl){
             productPrice= parseFloat(productPrice);
             let productInfo={

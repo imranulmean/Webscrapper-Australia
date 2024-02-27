@@ -59,7 +59,7 @@ const test= async () =>{
         products.push(product);
       })
       const productsString = JSON.stringify(products, null, 2);
-      fs.writeFileSync('./WoolsProducts2.json', productsString);
+      fs.writeFileSync('./WoolsProducts.json', productsString);
 
       const navigationLinks = await page.$$eval('.paging-section a', (pages) => {
         return pages.map((page) => page.getAttribute('href'));

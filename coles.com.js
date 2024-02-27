@@ -21,8 +21,7 @@ async function webSpider() {
       }
       const pageHTML1 = await axios.get(`${mainDomain}${paginationURLRoot}`);
       visitedURLs.push(paginationURLRoot);
-      const $ = cheerio.load(pageHTML1.data);
-
+      const $ = cheerio.load(pageHTML1.data);     
       ///////////// Get Products Information ////////////
         const productLinks = $('.product__link');
         let onPageProducts=[];
@@ -34,8 +33,12 @@ async function webSpider() {
           const productPrice = $(element).closest("section").find('.price__value').text().trim();
           let cleanedPrice = productPrice.replace(/\$([0-9]+\.[0-9]+)\$\1/, '$$$1');
           const productUrl='https://www.coles.com.au'+$(element).attr('href');
-          const productImage='https://www.coles.com.au'+$(element).find('img').attr('src');
+          const productId = productUrl.split('-').pop();
+          // let imageElem=$(element).find('span img[data-testid="product-image"]').attr('src')
+          const productImage=`https://www.coles.com.au/_next/image?url=https://productimages.coles.com.au/productimages/2/${productId}.jpg&w=640&q=90`
+          // const productImage='https://www.coles.com.au'+imageElem;
           console.log(`Product Title ${index + 1}: ${productTitle} Price: ${cleanedPrice}`);
+          console.log("productImage:", productImage);
           
           if(productTitle!=="" &&  productPrice!==""){            
             // onPageProducts.push(productInfo);
@@ -45,10 +48,12 @@ async function webSpider() {
             let productInfo={
               productTitle, productPrice:cleanedPrice, productUrl, 
               "paginationUrl":`${mainDomain}${paginationURLRoot}`,
-              productImage
+              productImage, shop:"Coles"
             };
             products.push(productInfo);
           }
+          const productsString = JSON.stringify(products, null, 2);
+          fs.writeFileSync('./ColesProducts2.json', productsString);
       });      
       // paginationObj['onPageProducts']=onPageProducts;
       // products.push(paginationObj);
@@ -66,7 +71,7 @@ async function webSpider() {
     //   products,
     // }      
     const productsString = JSON.stringify(products, null, 2);
-     fs.writeFileSync('./ColesProducts.json', productsString);
+     fs.writeFileSync('./ColesProducts2.json', productsString);
 } 
 
  webSpider();

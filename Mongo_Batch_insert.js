@@ -40,8 +40,8 @@ const batchInsertData = async () => {
     // await deleteAllData();
     // return
     await AldiCollection.insertMany(aldiProducts);
-    await ColesCollection.insertMany(colesProducts);
-    await WoolsCollection.insertMany(woolsProducts);
+    // await ColesCollection.insertMany(colesProducts);
+    // await WoolsCollection.insertMany(woolsProducts);
     
     console.log('Data import complete');
   } finally {
@@ -51,15 +51,39 @@ const batchInsertData = async () => {
 };
 
 const queryData=async()=>{
-  const totalProducts = await ProductModel.countDocuments();
-  console.log("totalProducts:", totalProducts);
-  const regexPattern="wool";
-  const res=await ProductModel.find({
+
+  const regexPattern="egg";
+  // const totalProducts = await AldiCollection.countDocuments({productTitle: { $regex: regexPattern, $options: 'i' }});
+  // console.log("totalProducts:", totalProducts);
+  const aldiRes=await AldiCollection.find({
     productTitle: { $regex: regexPattern, $options: 'i' } 
   });
-  console.log(res)
+  console.log("aldiRes:",aldiRes) 
+  const colesRes=await ColesCollection.find({
+    productTitle: { $regex: regexPattern, $options: 'i' } 
+  });
+  console.log("Coles Res:",colesRes)
+  const woolRes=await WoolsCollection.find({
+    productTitle: { $regex: regexPattern, $options: 'i' } 
+  });    
+  console.log("Wool Res:",woolRes)
+  
 }
 
+const removeDuplicate= async()=>{  
+  const distinctProductUrls = await AldiCollection.distinct('productUrl');
+  console.log("uniqueDocuments:", distinctProductUrls);
+  for (const productUrl of distinctProductUrls) {
+    const result = await AldiCollection.findOne({ productUrl });
+    if (result) {
+      console.log(`Document kept for productUrl: ${productUrl}`);
+    } else {
+      console.log(`No document found for productUrl: ${productUrl}`);
+    }
+    await AldiCollection.deleteMany({ productUrl, _id: { $ne: result._id } });
+  }
+  consol.log("Duplicate Data Delete Complete");
+}
 const deleteAllData=async()=>{
   try {
     const res = await ProductModel.deleteMany();
@@ -90,11 +114,25 @@ const batchUpdate= async () =>{
       },
     }
   );
+  await ColesCollection.updateMany(
+    {
+      $set:{
+        shop:"Coles"
+      },
+    }
+  );
+  await WoolsCollection.updateMany(
+    {
+      $set:{
+        shop:"Wools"
+      },
+    }
+  );    
   console.log("Product Update Successfully")
 }
-//  queryData();
+ queryData();
 // batchInsertData();
-batchUpdate();
+// batchUpdate();
 // deleteData();
 // deleteAllData();
 
