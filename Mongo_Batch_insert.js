@@ -130,8 +130,8 @@ const batchUpdate= async () =>{
   );    
   console.log("Product Update Successfully")
 }
- queryData();
-// batchInsertData();
+//  queryData();
+batchInsertData();
 // batchUpdate();
 // deleteData();
 // deleteAllData();

@@ -24,11 +24,7 @@ async function webSpider() {
       visitedURLs.push(paginationURLRoot);
       const $ = cheerio.load(pageHTML1.data);
       ///////////// Get Products Information ////////////
-        const productLinks = $('.ym-gl');
-        let onPageProducts=[];
-        let paginationObj={
-            "paginationUrl":`${mainDomain}${paginationURLRoot}`
-          };
+        const productLinks = $('a.ym-gl');
         productLinks.each((index, element) => {
           const productTitle = $(element).find('.box--description--header').text().trim();
           let productPrice = $(element).find('.box--price .box--value').text().trim();
@@ -36,7 +32,7 @@ async function webSpider() {
           productPrice=`${productPrice}${decimalPrice}`;
           productPrice=productPrice.replace('$', '');          
           const productUrl=$(element).attr('href');
-          const productImage=$(element).find('.ratio-container.box--image-container img').attr('src');
+          const productImage=$(element).find('img').attr('src');
           if(productUrl){
             productPrice= parseFloat(productPrice);
             let productInfo={
@@ -44,17 +40,14 @@ async function webSpider() {
                               "paginationUrl":`${mainDomain}${paginationURLRoot}`,
                               productImage
                             };
-            // onPageProducts.push(productInfo);
             products.push(productInfo);
           }
 
       });
-      // paginationObj['onPageProducts']=onPageProducts;
-      // products.push(paginationObj);
     } 
 
     const productsString = JSON.stringify(products, null, 2);
-     fs.writeFileSync('./AldiProducts.json', productsString);
+     fs.writeFileSync('./AldiProducts2.json', productsString);
 }
     
 
