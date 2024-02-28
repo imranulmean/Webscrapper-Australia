@@ -137,3 +137,4 @@ batchInsertData();
 // deleteAllData();
 
 
+// { "productTitle": { $regex: "(egg|eggs).*12\\s*|12\\s*.*(egg|eggs)", $options: 'i' } }
