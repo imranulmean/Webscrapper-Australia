@@ -131,10 +131,79 @@ const batchUpdate= async () =>{
   console.log("Product Update Successfully")
 }
 //  queryData();
-batchInsertData();
+// batchInsertData();
 // batchUpdate();
 // deleteData();
 // deleteAllData();
 
 
-// { "productTitle": { $regex: "(egg|eggs).*12\\s*|12\\s*.*(egg|eggs)", $options: 'i' } }
+// {
+//   $and: [
+//     { "productTitle": { $regex: /12/i } },
+//     { "productTitle": { $regex: /eggs/i } }
+//   ]
+// }
+
+// {
+//   $and: [
+//     { "productTitle": { $regex: /12/i } },
+//     { "productTitle": { $regex: /eggs/i } },
+//     { "productTitle": { $regex: /Sunny/i } }
+//   ]
+// }
+
+// {
+//   $and: [
+//     { "productTitle": { $regex: /milk/i } },
+//     { "productTitle": { $regex: /Pura/i } },
+// 		{ "productTitle": { $regex: /full cream/i } }
+//   ]
+// }
+
+// {
+//   $or: [
+//     {
+//       $and: [
+//         { "productTitle": { $regex: /12/i } },
+//         { "productTitle": { $regex: /eggs/i } },
+//         { "productTitle": { $regex: /queen/i } },
+//       ]
+//     },
+//     {
+//       $and: [
+//         { "productTitle": { $regex: /milk/i } },
+//         { "productTitle": { $regex: /Pura/i } },
+//         { "productTitle": { $regex: /full cream/i } }
+//       ]
+//     }
+//   ]
+// }
+
+const data = [
+  { "productTitle": "Sunny Queen Free Range Extra Large Eggs 12 pack | 700g", "productPrice": 7.2 },
+  { "productTitle": "Sunny Queen Free Range Big Brekkie Browns Eggs 12 pack | 820g", "productPrice": 8.6 },
+  { "productTitle": "Sunny Queen Free Range Large Eggs 12 pack | 600g", "productPrice": 6.9 },
+  { "productTitle": "Sunny Queen Free Range Large Eggs 12 pack | 600g", "productPrice": 6.9 },
+  { "productTitle": "Pura Full Cream Milk | 2L", "productPrice": 4.3 },
+  { "productTitle": "Sunny Queen Organic Eggs 12 pack | 700g", "productPrice": 11.5 },
+  { "productTitle": "Pura Milk Full Cream | 3L", "productPrice": 5.95 }
+];
+
+const eggs = data.filter(item => item.productTitle.toLowerCase().includes('egg'));
+const milk = data.filter(item => item.productTitle.toLowerCase().includes('milk'));
+const combinedArray=[];
+
+eggs.map((egg)=>{
+  milk.map((m)=>{
+    let obj={
+      product1:egg.productTitle,
+      product1Price:egg.productPrice,
+      product2:m.productTitle,
+      product2Price:m.productPrice,
+      price:parseFloat(egg.productPrice + m. productPrice)
+    };
+    combinedArray.push(obj);
+  })
+})
+
+console.log('combinedArray:', combinedArray);
