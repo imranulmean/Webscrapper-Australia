@@ -153,11 +153,11 @@ const batchUpdate= async () =>{
 // }
 
 // {
-//   $and: [
-//     { "productTitle": { $regex: /milk/i } },
-//     { "productTitle": { $regex: /Pura/i } },
-// 		{ "productTitle": { $regex: /full cream/i } }
-//   ]
+  // $and: [
+  //   { "productTitle": { $regex: /milk/i } },
+  //   { "productTitle": { $regex: /Pura/i } },
+	// 	{ "productTitle": { $regex: /full cream/i } }
+  // ]
 // }
 
 // {
