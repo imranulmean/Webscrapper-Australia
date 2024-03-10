@@ -7,8 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-    "coles": "node coles.com.js",
-    "wool": "node woolworths2.com.js",
+    "coles": "node coles.category.js",
+    "wool": "node wools.category.js",
     "aldi": "node aldi.au.js",
     "mongo": "nodemon Mongo_Batch_insert.js"
   },
@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.2",
+    "axios-retry": "^4.0.0",
     "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.4.4",
     "fs": "^0.0.1-security",

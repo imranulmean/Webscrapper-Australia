@@ -1,6 +1,7 @@
 import axios from 'axios';
 import cheerio from 'cheerio';
 import fs from 'fs';
+import axiosRetry from 'axios-retry';
 
 const url = 'https://www.coles.com.au/browse/dairy-eggs-fridge?pid=homepage_cat_explorer_dairy_eggs_fridge';
 const mainDomain="https://www.coles.com.au/";
@@ -54,7 +55,6 @@ async function webSpider() {
             paginationQueueURLsToVisit.push(paginationPageUrl)
           }
         }
-
       });
     }     
     const productsString = JSON.stringify(products, null, 2);
@@ -91,3 +91,8 @@ async function getPublicIP() {
   }
   // removeDuplicate();
 // ---------------------------------------------
+
+
+
+
+
