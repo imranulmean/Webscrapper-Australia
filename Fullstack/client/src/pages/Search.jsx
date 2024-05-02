@@ -11,7 +11,7 @@ export default function Search() {
   });
 
   console.log(sidebarData);
-  const [posts, setPosts] = useState([]);
+  const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [showMore, setShowMore] = useState(false);
 
@@ -36,16 +36,16 @@ export default function Search() {
     const fetchPosts = async () => {
       setLoading(true);
       const searchQuery = urlParams.toString();
-      const res = await fetch(`/api/post/getposts?${searchQuery}`);
+      const res = await fetch(`/api/products/getproducts?${searchQuery}`);
       if (!res.ok) {
         setLoading(false);
         return;
       }
       if (res.ok) {
         const data = await res.json();
-        setPosts(data.posts);
+        setProducts(data.products);
         setLoading(false);
-        if (data.posts.length === 9) {
+        if (data.products.length === 20) {
           setShowMore(true);
         } else {
           setShowMore(false);
@@ -80,19 +80,19 @@ export default function Search() {
   };
 
   const handleShowMore = async () => {
-    const numberOfPosts = posts.length;
+    const numberOfPosts = products.length;
     const startIndex = numberOfPosts;
     const urlParams = new URLSearchParams(location.search);
     urlParams.set('startIndex', startIndex);
     const searchQuery = urlParams.toString();
-    const res = await fetch(`/api/post/getposts?${searchQuery}`);
+    const res = await fetch(`/api/products/getproducts?${searchQuery}`);
     if (!res.ok) {
       return;
     }
     if (res.ok) {
       const data = await res.json();
-      setPosts([...posts, ...data.posts]);
-      if (data.posts.length === 9) {
+      setProducts([...products, ...data.products]);      
+      if (data.products.length === 20) {
         setShowMore(true);
       } else {
         setShowMore(false);
@@ -102,17 +102,13 @@ export default function Search() {
 
   return (
     <div className='flex flex-col md:flex-row'>
-      <div className='p-7 border-b md:border-r md:min-h-screen border-gray-500'>
+      <div className='p-7 border-b md:border-r md:min-h-screen border-white-500'>
         <form className='flex flex-col gap-8' onSubmit={handleSubmit}>
           <div className='flex   items-center gap-2'>
             <label className='whitespace-nowrap font-semibold'>
               Search Term:
             </label>
-            <TextInput
-              placeholder='Search...'
-              id='searchTerm'
-              type='text'
-              value={sidebarData.searchTerm}
+            <TextInput placeholder='Search...' id='searchTerm' type='text' value={sidebarData.searchTerm}
               onChange={handleChange}
             />
           </div>
@@ -142,17 +138,14 @@ export default function Search() {
         </form>
       </div>
       <div className='w-full'>
-        <h1 className='text-3xl font-semibold sm:border-b border-gray-500 p-3 mt-5 '>
-          Posts results:
-        </h1>
         <div className='p-7 flex flex-wrap gap-2'>
-          {!loading && posts.length === 0 && (
+          {!loading && products.length === 0 && (
             <p className='text-xl text-gray-500'>No posts found.</p>
           )}
           {loading && <p className='text-xl text-gray-500'>Loading...</p>}
           {!loading &&
-            posts &&
-            posts.map((post) => <PostCard key={post._id} post={post} />)}
+            products &&
+            products.map((product) => <PostCard key={product._id} post={product} />)}
           {showMore && (
             <button
               onClick={handleShowMore}
