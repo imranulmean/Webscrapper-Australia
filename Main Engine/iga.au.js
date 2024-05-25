@@ -12,7 +12,7 @@ const products = [];
 async function fetchProducts() {
     try {
         ///////////////////////////////////////////////////
-        for(let i=1; i<7 ; i++){
+        for(let i=1; i<2 ; i++){
             const pageUrl=`https://www.igashop.com.au/categories/dairy-eggs-and-fridge/milk-and-cream/${i}`
             await page.goto(pageUrl, { waitUntil: 'domcontentloaded',timeout: 10 * 60000 });
             const productPromises=await page.evaluate(() => {
@@ -22,16 +22,22 @@ async function fetchProducts() {
                     wcProductTiles.forEach((productTile)=>{
                         // console.log(productTile);
                         const titleElement = productTile.querySelector('.line-clamp-3.truncate a');
-                        const productTitle = titleElement ? titleElement.textContent.trim() : null;
+                        let productTitle = titleElement ? titleElement.textContent.trim() : null;
                         const priceElement = productTile.querySelectorAll('.font-bold.capsize');
                         let productPrice= priceElement.length>1 ? priceElement[1].textContent.trim() : null;
                         const productUrlElement=productTile.querySelector('a');
                         let productUrl = productUrlElement ? productUrlElement.getAttribute('href') : null;
+
+                        let  productWeightElement=productTile.querySelectorAll('.font-bold a');
+                        let productWeight = productWeightElement.length>1 ? productWeightElement[1].textContent.trim() : null;
+                        console.log("productWeight: ", productWeight);
+                        
                         const productImageElement=productTile.querySelectorAll('img[alt]');
                         const productImage= productImageElement.length > 1 ? productImageElement[1].getAttribute('src') : null;
-                        console.log(productImage)
-                        if(productTitle && productTitle!==null && productPrice && productPrice !==null && productUrl && productUrl !==null
+
+                        if(productTitle && productTitle!==null && productWeight && productWeight!==null && productPrice && productPrice !==null && productUrl && productUrl !==null
                             && productImage && productImage!==null ){
+                            productTitle=`${productTitle} ${productWeight}`
                             productPrice = productPrice.replace('$', '');
                             productPrice=parseFloat(productPrice);
                             productUrl=`https://www.igashop.com.au/${productUrl}`
@@ -49,9 +55,10 @@ async function fetchProducts() {
                 });                
 
         }
+        console.log(products)
         browser.close();
         const productsString = JSON.stringify(products, null, 2);  
-        fs.writeFileSync('./IgaProducts.json', productsString);        
+        // fs.writeFileSync('./IgaProducts.json', productsString);        
     } 
     catch (error) {
       console.error('Error fetching sub-category:' , error);
