@@ -10,7 +10,7 @@
     "coles": "node coles.category.js",
     "wool": "node wools.category.js",
     "aldi": "node aldi.au.js",
-    "iga": "nodemon iga.au.js",
+    "iga": "node iga.au.js",
     "mongo": "nodemon Mongo_Batch_insert.js"
   },
   "author": "",

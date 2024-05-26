@@ -12,7 +12,7 @@ const products = [];
 async function fetchProducts() {
     try {
         ///////////////////////////////////////////////////
-        for(let i=1; i<2 ; i++){
+        for(let i=1; i<7 ; i++){
             const pageUrl=`https://www.igashop.com.au/categories/dairy-eggs-and-fridge/milk-and-cream/${i}`
             await page.goto(pageUrl, { waitUntil: 'domcontentloaded',timeout: 10 * 60000 });
             const productPromises=await page.evaluate(() => {
@@ -37,6 +37,12 @@ async function fetchProducts() {
 
                         if(productTitle && productTitle!==null && productWeight && productWeight!==null && productPrice && productPrice !==null && productUrl && productUrl !==null
                             && productImage && productImage!==null ){
+
+                            productWeight = productWeight.replace(/\s*Litre/, 'L'); 
+                            productWeight = productWeight.replace(/\s*Millilitre/, 'mL');
+                            productWeight = productWeight.replace(/\s*Gram/, 'gm');
+                            productWeight = productWeight.replace(/\s*Kilogram/, 'kg');
+                                    
                             productTitle=`${productTitle} ${productWeight}`
                             productPrice = productPrice.replace('$', '');
                             productPrice=parseFloat(productPrice);
@@ -58,7 +64,7 @@ async function fetchProducts() {
         console.log(products)
         browser.close();
         const productsString = JSON.stringify(products, null, 2);  
-        // fs.writeFileSync('./IgaProducts.json', productsString);        
+        fs.writeFileSync('./IgaProducts.json', productsString);        
     } 
     catch (error) {
       console.error('Error fetching sub-category:' , error);
