@@ -9,11 +9,13 @@ const page = await browser.newPage();
 await page.setViewport({width: 1080, height: 1024});
 const products = [];
 
+//Chocolate Bars, Chocolate Blocks, Chocolate Box
+
 async function fetchProducts() {
     try {
         ///////////////////////////////////////////////////
-        for(let i=1; i<7 ; i++){
-            const pageUrl=`https://www.igashop.com.au/categories/dairy-eggs-and-fridge/milk-and-cream/${i}`
+        for(let i=1; i<6 ; i++){
+            const pageUrl=`https://www.igashop.com.au/categories/pantry/confectionary/${i}?f=Category%3ABoxed+Chocolates`
             await page.goto(pageUrl, { waitUntil: 'domcontentloaded',timeout: 10 * 60000 });
             const productPromises=await page.evaluate(() => {
                     console.log("Inside page")
@@ -54,17 +56,17 @@ async function fetchProducts() {
                 });
                 productPromises.map((product) =>{
                     product["paginationUrl"]=pageUrl;
-                    product["mainCategoryUrl"]='https://www.igashop.com.au/categories/dairy-eggs-and-fridge/milk-and-cream';
-                    product["mainCategoryName"]='Milk and Cream'; 
-                    product["subCategoryName"]='Milk and Cream';
+                    product["mainCategoryUrl"]='https://www.igashop.com.au/categories/pantry/confectionary/';
+                    product["mainCategoryName"]='Confectionary'; 
+                    product["subCategoryName"]='Chocolate Box';
                     products.push(product);
                 });                
 
-        }
-        console.log(products)
+        }        
         browser.close();
         const productsString = JSON.stringify(products, null, 2);  
-        fs.writeFileSync('./IgaProducts.json', productsString);        
+        console.log("Writing to file")
+        fs.writeFileSync('./Iga_ChocolateBox_Products.json', productsString);        
     } 
     catch (error) {
       console.error('Error fetching sub-category:' , error);

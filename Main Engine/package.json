@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
     "coles": "node coles.category.js",
-    "wool": "node wools.category.js",
+    "wools": "node wools.category.js",
     "aldi": "node aldi.au.js",
     "iga": "node iga.au.js",
     "mongo": "nodemon Mongo_Batch_insert.js"
@@ -25,7 +25,9 @@
     "mongoose": "^8.1.3",
     "nodemon": "^3.0.1",
     "path": "^0.12.7",
-    "puppeteer": "^21.9.0",
+    "puppeteer": "^21.11.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "readline": "^1.3.0"
   }
 }
