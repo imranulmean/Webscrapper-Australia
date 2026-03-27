@@ -14,9 +14,10 @@ const products = [];
 async function fetchProducts() {
     try {
         ///////////////////////////////////////////////////
-        for(let i=1; i<6 ; i++){
-            const pageUrl=`https://www.igashop.com.au/categories/pantry/confectionary/${i}?f=Category%3ABoxed+Chocolates`
+        for(let i=1; i<10 ; i++){
+            const pageUrl=`https://www.igashop.com.au/categories/pantry/confectionary/${i}?f=Category%3AChocolate+Bars`
             await page.goto(pageUrl, { waitUntil: 'domcontentloaded',timeout: 10 * 60000 });
+            // await page.waitForTimeout(3000);
             const productPromises=await page.evaluate(() => {
                     console.log("Inside page")
                     const onPageProducts = [];                    
@@ -42,7 +43,7 @@ async function fetchProducts() {
 
                             productWeight = productWeight.replace(/\s*Litre/, 'L'); 
                             productWeight = productWeight.replace(/\s*Millilitre/, 'mL');
-                            productWeight = productWeight.replace(/\s*Gram/, 'gm');
+                            productWeight = productWeight.replace(/\s*Gram/, 'g');
                             productWeight = productWeight.replace(/\s*Kilogram/, 'kg');
                                     
                             productTitle=`${productTitle} ${productWeight}`
@@ -58,7 +59,7 @@ async function fetchProducts() {
                     product["paginationUrl"]=pageUrl;
                     product["mainCategoryUrl"]='https://www.igashop.com.au/categories/pantry/confectionary/';
                     product["mainCategoryName"]='Confectionary'; 
-                    product["subCategoryName"]='Chocolate Box';
+                    product["subCategoryName"]='Chocolate Bars';
                     products.push(product);
                 });                
 
@@ -66,7 +67,7 @@ async function fetchProducts() {
         browser.close();
         const productsString = JSON.stringify(products, null, 2);  
         console.log("Writing to file")
-        fs.writeFileSync('./Iga_ChocolateBox_Products.json', productsString);        
+        fs.writeFileSync('./Iga_ChocolateBars_Products.json', productsString);        
     } 
     catch (error) {
       console.error('Error fetching sub-category:' , error);

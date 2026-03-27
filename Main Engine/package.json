@@ -11,7 +11,8 @@
     "wools": "node wools.category.js",
     "aldi": "node aldi.au.js",
     "iga": "node iga.au.js",
-    "mongo": "nodemon Mongo_Batch_insert.js"
+    "mongo": "nodemon Mongo_Batch_insert.js",
+    "hadith":"node Hadith.js"
   },
   "author": "",
   "license": "ISC",
